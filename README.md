@@ -1,5 +1,5 @@
 # Git and GitHub Interview Questions
-* **What are the stages of Git on local host?**
+* **What are the stages of Git on the local host?**
   * ANSWR
 
 * **How can you reset/cancel if you have already run `git add .` command?**
@@ -7,7 +7,7 @@
   * `git reset filename` - remove the specified file
 
 * **What is a Git staging area?**
-  * It acts as a draft space where one can use `git add` to add files that they want to save for their next commit. One can use `git status` to check the files that are currently in the staging area.
+  * It acts as a draft space where one can use `git add` to add the files that they want to save for their next commit. One can use `git status` to check the files that are currently in the staging area.
 
 * **Workflow and the stages**
   * ANSWR
@@ -15,10 +15,11 @@
 * **Git merge and merge conflicts**
   * ANSWR
 
-* **Best practice to resolve git merge conflicts**
+* **Best practice to resolve Git merge conflicts**
   1. On GitBash/Terminal, navigate to the repository with the conflict
   2. Use `git status` to show the conflicted file(s)
-  3. Open the conflicted file. The conflicted sections will be surrounded with `<<<<<<< HEAD` and `>>>>>>> branch-a`, and the conflicts are separated by `=======`. An example is shown below:
+  3. Open the conflicted file. The conflicted sections will be surrounded with `<<<<<<< HEAD` and `>>>>>>> commit/branch-name`, and the conflicts are separated by `=======`. An example is shown below:
+  
      ```
      Some of my favourite notes:
 	 <<<<<<< HEAD
