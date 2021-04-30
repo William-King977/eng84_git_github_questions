@@ -11,15 +11,15 @@
     * Use `git commit -m "message"` to save the changes to the local repository
     * The commit records the author and time of the commit
 
-* **How can you reset/cancel if you have already run `git add .` command?**
+* **How can you reset/cancel if you have already run the `git add .` command?**
   * `git reset` - reset all the added files from `git add .`
   * `git reset filename` - remove the specified file
 
 * **What is a Git staging area?**
   * It acts as a draft space where one can use `git add` to add the files that they want to save for their next commit. One can use `git status` to check the files that are currently in the staging area.
 
-* **Workflow and the stages**
-  1. **Create a branch** - ensures changes made do not affect the main/master branch
+* **Git workflow and the stages**
+  1. **Create a branch** - ensures that the changes made do not affect the main/master branch
   2. **Add commits** - making changes and updates to the branch
   3. **Open a pull request** - notifies that changes have been made and is a request for a code review
   4. **Code review** - a review about the commits made
@@ -27,8 +27,8 @@
   6. **Merge** - once the changes have been verified in production, merge the changes with the main/master branch.
 
 * **Git merge and merge conflicts**
-  * **Git Merge:** When the contents of a source branch is integrated with a target branch. This effectively updates the target branch, but the source branch remains unchanged. 
-  * **Git Merge Conflicts:** When a merge cannot be performed between two branches due to making commits on both branches that alter the same line(s) in conflicting ways.
+  * **Git Merge:** when the contents of a source branch are integrated with a target branch. This effectively updates the target branch, but the source branch remains unchanged. 
+  * **Git Merge Conflicts:** when a merge cannot be performed between two branches due to making commits on both branches that alter the same line(s) in conflicting ways.
 
 * **Best practice to resolve Git merge conflicts**
   1. On GitBash/Terminal, navigate to the repository with the conflict
@@ -45,7 +45,7 @@
      * Who's going to win WSM 2021? From GitHub test repo
 	   >>>>>>> commit/branch-name
      ```
-  4. After the conflicts have been resolved, remove the characters mentioned in the previous step to mark it as resolved.
+  4. After the conflict(s) has been resolved, remove the characters mentioned in the previous step to mark it as resolved.
   5. Now, the changes can be added, committed, and pushed to GitHub.
 
 * **Best practices of Git and GitHub**
